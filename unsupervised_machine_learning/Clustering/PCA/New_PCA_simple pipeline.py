@@ -56,8 +56,8 @@ from sqlalchemy import create_engine  # Importing create_engine for creating a c
 from urllib.parse import quote # Importing quote to read the urls/passwords having a special charectors
 
 # Database credentials
-user = 'root'  # Database username
-pw = quote('Ayush.2002@#')  # Database password
+user = '******'  # Database username
+pw = quote('*********')  # Database password
 db = 'education_db'  # Database name
 
 # Creating an engine to connect to the database

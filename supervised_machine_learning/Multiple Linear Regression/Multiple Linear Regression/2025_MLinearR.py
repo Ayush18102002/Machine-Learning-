@@ -97,8 +97,8 @@ print(encoded_text)
 
 # Database connection
 engine = create_engine("mysql+pymysql://{user}:{pw}@localhost/{db}"
-                       .format(user = "root",  # MySQL username
-                               pw = quote("Ayush.2002@#"),  # MySQL password
+                       .format(user = "***",  # MySQL username
+                               pw = quote("**********"),  # MySQL password
                                db = "cars_db"))  # MySQL database name 
 
 # Load the offline data into Database to simulate client conditions

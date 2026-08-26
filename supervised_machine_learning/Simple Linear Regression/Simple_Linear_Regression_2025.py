@@ -111,8 +111,8 @@ data2 = pd.read_csv(r"C:\Users\admin\OneDrive\Desktop\Machine_learning\supervise
 # 1. Establish a connection to a MySQL database:
 # Create an engine object, providing authentication details and database name.
 engine = create_engine("mysql+pymysql://{user}:{pw}@localhost/{db}"
-                     .format(user = "root",  # Database username
-                             pw = quote("Ayush.2002@#"),  # Database password
+                     .format(user = "*****",  # Database username
+                             pw = quote("***********"),  # Database password
                              db = "wcat"))  # Database name
 
 # 2. Write data to separate tables:

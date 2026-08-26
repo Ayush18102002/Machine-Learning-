@@ -91,7 +91,7 @@ from urllib.parse import quote
 # Create a connection engine to the MySQL database named 'cars_db'
 # using credentials 'user1' and 'user1' (replace with your actual credentials)
 engine = create_engine("mysql+pymysql://{user}:{pw}@localhost/{db}"
-                        .format(user = "root", pw = quote("Ayush.2002@#"), db = "cars_db"))
+                        .format(user = "******", pw = quote("-***********"), db = "cars_db"))
 
 # Read the 'cars' table from the MySQL database into a Pandas DataFrame
 sql = 'SELECT * FROM cars'

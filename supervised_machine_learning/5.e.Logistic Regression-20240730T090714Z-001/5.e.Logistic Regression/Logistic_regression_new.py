@@ -24,8 +24,8 @@ from urllib.parse import quote
 # Create a SQLAlchemy engine object to connect to the MySQL database
 engine = create_engine(
     "mysql+pymysql://{user}:{pw}@localhost/{db}".format(
-        user="root",  # Username for MySQL database0
-        pw=quote("Ayush.2002@#"),    # Password for MySQL database
+        user="******",  # Username for MySQL database0
+        pw=quote("**********"),    # Password for MySQL database
         db="cars" # Name of the MySQL database
     )
 )

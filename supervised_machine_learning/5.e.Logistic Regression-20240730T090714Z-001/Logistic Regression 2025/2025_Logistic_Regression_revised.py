@@ -88,8 +88,8 @@ warnings.filterwarnings('ignore')
 claimants_data = pd.read_csv(r"C:\MachineLearningModels\claimants.csv")  # Load raw CSV data
 
 # MySQL connection setup
-user = 'root'  # Database username
-pw = quote('MasterMind@5678')  # URL encode password for special characters
+user = '******'  # Database username
+pw = quote('*************')  # URL encode password for special characters
 db = 'db1'  # Database name
 engine = create_engine(f"mysql+pymysql://{user}:{pw}@localhost/{db}")  # Create database connection engine
 

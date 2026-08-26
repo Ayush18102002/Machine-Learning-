@@ -54,7 +54,7 @@ from urllib.parse import quote
 # Define the connection string for the SQLAlchemy engine
 # This connects to a MySQL database named 'recommenddb' with username 'user1' and password 'user1'
 engine = create_engine("mysql+pymysql://{user}:{pw}@localhost/{db}"
-                       .format(user = "root", pw = quote("Ayush.2002@#"), db = "movies_db"))
+                       .format(user = "*******", pw = quote("************"), db = "movies_db"))
 
 # Upload the 'anime' DataFrame to the 'anime' table in the database
 # If the table already exists, it will be replaced

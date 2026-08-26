@@ -77,8 +77,8 @@ from sklearn.preprocessing import LabelEncoder  # For label encoding
 cancerdata = pd.read_csv(r"C:\Users\admin\OneDrive\Desktop\Machine_learning\supervised_machine_learning\KNN_Complete_Pipeline\cancerdata.csv")
 
 # MySQL connection setup
-user = 'root'
-pw = quote('Ayush.2002@#')l
+user = '****'
+pw = quote('**********')l
 db = 'cancer_db'
 engine = create_engine(f"mysql+pymysql://{user}:{pw}@localhost/{db}")
 cancerdata.to_sql('cancer', con = engine, if_exists = 'replace', chunksize = 1000, index = False)

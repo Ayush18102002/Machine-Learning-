@@ -109,7 +109,7 @@ print(tup2[1:5])
 # Deletion of individual items of tuple (tup1[1]) # Commented out since tuples are immutable and this operation is not allowed.
 
 # Create a SQLAlchemy engine to connect to the MySQL database
-engine = create_engine("mysql+pymysql://{user}:{pw}@localhost/{db}".format(user = "root", pw = quote("Ayush.2002@#"), db = "retail_db"))
+engine = create_engine("mysql+pymysql://{user}:{pw}@localhost/{db}".format(user = "******", pw = quote("********"), db = "retail_db"))
 
 # Read the CSV file containing grocery data into a Pandas DataFrame
 data = pd.read_csv(r"C:\Users\admin\OneDrive\Desktop\Machine_learning\unsupervised_machine_learning\Clustering\2025_Association_Rules (1)\3.c.Associate Rules\groceries.csv", sep = ';', header = None)

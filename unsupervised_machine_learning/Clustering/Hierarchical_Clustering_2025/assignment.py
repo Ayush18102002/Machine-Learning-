@@ -25,8 +25,8 @@ from urllib.parse import quote
 
 uni = pd.read_csv(r"C:\Users\admin\Downloads\customer_segmentation_clustering_dataset.csv")
 
-user = 'root'
-pw = quote("Ayush.2002@#")  
+user = '********'
+pw = quote("***********")  
 db = 'coustomer_segmentation'  
 engine = create_engine(f"mysql+pymysql://{user}:{pw}@localhost/{db}")
 
